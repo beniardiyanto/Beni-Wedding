@@ -53,11 +53,13 @@ body{
 
 .hero h1, .hero h4, .hero p{
     text-shadow: var(--shadow);
+    font-weight: 610;
 }
 
 .hero h1{
     font-family: 'Sacramento', cursive;
     font-size: 6rem;
+    font-weight: 700;
 }
 
 .hero h4{
@@ -606,18 +608,18 @@ footer li {
     }
 
     .timeline li .timeline-image2 {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
     .timeline li .timeline-image3 {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
     .timeline li .timeline-image4 {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
     .timeline li .timeline-panel {
@@ -626,10 +628,10 @@ footer li {
     }
 
     .timeline li .timeline-panel::before {
-        top: 30px;
+        top: 20px;
     }
 
     .timeline li .timeline-panel::after {
-        top: 31px;
+        top: 21px;
     }
 }
